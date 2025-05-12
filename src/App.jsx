@@ -6,6 +6,9 @@ import { Navbar } from './components/Navbar';
 import { MobileMenu } from './components/MobileMenu';
 import { Home } from './components/section/Home';
 import { About } from './components/section/About';
+import { Contact } from './components/section/Contact';
+
+
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,6 +26,7 @@ function App() {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
+        <Contact/>
         {/* Add your main content here */}
         <main className="p-4">
           <h1 className="text-2xl">Welcome to Jesse's Portfolio</h1>

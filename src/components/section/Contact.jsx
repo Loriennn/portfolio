@@ -4,6 +4,11 @@ import emailjs from 'emailjs-com'
 
 export const Contact = () => {
 
+  const SERVICE_ID = ""
+  const TEMPLANE_ID = ""
+  const PUBLIC_KEY =""
+
+
     const handleSubmit = (e) ={
         e.preventDefault();
 

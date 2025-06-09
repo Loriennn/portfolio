@@ -2,6 +2,10 @@ import emailjs from 'emailjs-com';
 import { useRef } from 'react';
 
 export const Contact = () => {
+
+ const [formData, setForm]
+
+
   const SERVICE_ID = "your_service_id";
   const TEMPLATE_ID = "your_template_id";
   const PUBLIC_KEY = "your_public_key";
